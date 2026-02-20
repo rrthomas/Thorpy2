@@ -32,4 +32,4 @@ GradientColor = RGB_OR_RGBA | tuple[RGB_OR_RGBA_SEQ, str] | RGB_OR_RGBA_SEQ
 PygCol = Literal['P', 'RGB', 'RGBX', 'RGBA', 'ARGB', 'BGRA', 'RGBA_PREMULT', 'ARGB_PREMULT']
 PygCol2 = Literal['P', 'RGB', 'RGBX', 'RGBA', 'ARGB', 'BGRA']
 
-RectOrElement = pygame.Rect | "Element"
+RectOrElement = pygame.Rect

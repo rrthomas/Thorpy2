@@ -692,7 +692,7 @@ def generate_non_uniform_rect_shadow(size:Size, color:RGB_OR_RGBA,
 def generate_oscillating_lights(surface:pygame.Surface, n:int, inflation:int=8, radius_amplitude:int=3,
                     alpha_factor_base:float=0.1, alpha_factor_amplitude:float=0.3,
                     color:RGB_OR_RGBA=(255,255,255),
-                    base_radius:int=1)->List[pygame.Surface]:
+                    base_radius:int=1)->list[pygame.Surface]:
     """Prepares the frames of lights animation. This is a complex function that should be used as described in
     the tagged examples."""
     from .shadows import Shadow
